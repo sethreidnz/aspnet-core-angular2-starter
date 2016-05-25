@@ -1,0 +1,16 @@
+{
+  "name": "aspnet-core-angular2-starter",
+  "version": "1.0.0",
+  "description": "Starter kit for AspnetCore and Angular2",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^2.1.0"
+  },
+  "scripts": {
+    "start-server": "cd src/AspnetCoreAngular2Starter.MVC && dotnet watch run",
+    "start-frontend": "cd src/AspnetCoreAngular2Starter.Frontend && npm run server"
+  },
+  "author": "Seth Reid",
+  "license": "MIT"
+}

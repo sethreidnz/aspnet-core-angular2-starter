@@ -24,7 +24,7 @@ namespace AspnetCoreAngular2Starter.MVC.Controllers
             string vendorHash = Options.VendorHash;
             string chunkHash = Options.ChunkHash;
             string polyfillsHash = Options.PolyfillsHash;
-            string frontendHost = Options.ScriptHost;
+            string frontendHost = Options.ScriptHost;   
             var viewModel = new HomeModel()
             {
                 VendorScriptUrl = getScriptUrl("vendor.bundle.js", vendorHash, frontendHost),

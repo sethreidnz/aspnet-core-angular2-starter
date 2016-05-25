@@ -33,6 +33,25 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AspnetCoreAngular2Starter.F
 		SlnRelativePath = "src\AspnetCoreAngular2Starter.Frontend\"
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{4D3C6180-E59C-4B60-AC0C-888D873DF4CB}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\build.ps1 = scripts\build.ps1
+		scripts\deploy.ps1 = scripts\deploy.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{DD2995A5-D3E1-4A12-AFAB-1E9223A4D1D4}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\frontend\build.ps1 = scripts\frontend\build.ps1
+		scripts\frontend\deploy.ps1 = scripts\frontend\deploy.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{719A505D-CA3D-438E-B961-07CEDD065939}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "utility", "utility", "{79EA64B7-B68F-48CC-855E-A7B61D0ACDF8}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\utility\UpdateWebAppSettings.ps1 = scripts\utility\UpdateWebAppSettings.ps1
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +73,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{0F63CBDF-E76E-4AFF-AFAC-E4A72F985610} = {EE1488EF-C1F5-4753-B8E2-195C7F0FC335}
 		{222C33F0-3CDA-4CF2-ABC6-19012CD9D8FA} = {EE1488EF-C1F5-4753-B8E2-195C7F0FC335}
+		{4D3C6180-E59C-4B60-AC0C-888D873DF4CB} = {550A6138-B88E-44B6-856D-07A672F34B3D}
+		{DD2995A5-D3E1-4A12-AFAB-1E9223A4D1D4} = {4D3C6180-E59C-4B60-AC0C-888D873DF4CB}
+		{719A505D-CA3D-438E-B961-07CEDD065939} = {4D3C6180-E59C-4B60-AC0C-888D873DF4CB}
+		{79EA64B7-B68F-48CC-855E-A7B61D0ACDF8} = {4D3C6180-E59C-4B60-AC0C-888D873DF4CB}
 	EndGlobalSection
 EndGlobal
