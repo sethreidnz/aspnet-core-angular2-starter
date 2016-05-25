@@ -284,8 +284,8 @@ npm-debug.log
 
 # Typing #
 src/AspnetCoreAngular2Starter/src/typings/tsd/
-/typings/
-/tsd_typings/
+src/AspnetCoreAngular2Starter/typings/
+src/AspnetCoreAngular2Starter/tsd_typings/
 
 # Dist #
 src/AspnetCoreAngular2Starter/dist
