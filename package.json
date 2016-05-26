@@ -5,7 +5,6 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "concurrently": "^2.1.0"
   },
   "scripts": {
     "start-server": "cd src/AspnetCoreAngular2Starter.MVC && dotnet watch run",
